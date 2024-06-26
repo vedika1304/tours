@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+<title>webpage using div</title>
+<style>
+  body{
+    margin:0px;
+  }
+.header{
+  padding:10px;
+   background: linear-gradient(to bottom,  #ccffff 0%, #ffcccc 100%);
+    text-align: center;
+  } 
+  .nav{
+    background-color:#243238;
+    padding:2px;
+  }
+  .nav li{
+    list-style:none;
+    display:inline-block;
+    padding:8px;
+  }
+  .nav a{color:white;
+  }
+  .nav ul li a:hover{ text-decoration:none;
+  color:tomato;
+  }
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 29.33%;
+  padding: 17.6px;
+  color:black;
+  border: 1px solid black;
+  margin: 30px 80px 50px px;
+  background-color:beige;
+  }
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%; 
+}
+  }
+  .footer{
+    height:44px;
+    background-color:grey;
+    text-align: center;
+    padding:8px;
+  }
+  .footer p{
+    color:black;
+  }
+  </style>
+  </head>
+<div>
+  <div class="header">
+    <img src="https://i.postimg.cc/521RhFg5/download-removebg-preview.png" style="float: left;"  height="7%" width="7%">
+    <h1>TOURS AND TRAVELLERS</h1>
+    </div>
+  <!--nav-->
+  <div class="nav">
+    <ul>
+    <li><a href="#">HOME </a></li>
+    <li><a href="#">FLIGHTS</a></li>
+    <li><a href="#">TOURS</a></li>
+    <li><a href="#">CONTACT</a></li>
+     </ul>
+     </div>
+     <div class="row">
+       <div class="column">
+    <h2>KASHMIR</h2>
+         <img src="https://i.postimg.cc/cLMN3hKn/images-3.jpg">
+  <p>Choose from a wide range of Kashmir Packages with Experiential Itineraries & Great Deals. Houseboat Stay | Sightseeing | Kashmir Delicacies | Shikara Ride Explore the 'Paradise on Earth', Kashmir with Thrillophilia's well-planned, fully structured, and affordable Kashmir tour packages.Contact to Us for a Exclusive Kashmir Tour Package.Kashmir holiday package — Experience the Magic of Kashmir! </p><br>
+  <li><a href="#">FOR MORE DETAILS OF KASHMIR</a></li>
+       </div>
+  
+  <div class="column">
+    <h2>HYDRABAD</h2>
+    <img src="https://i.postimg.cc/BnZmhBYD/images-1.jpg">
+    <p>Have a great time in the beautiful Hyderabad City and explore its many wonders! Visit the famous Birla Mandir and the alluring Hussain Sagar. Unwind in the magnificent Ramoji Film City, one of the largest film studio complexes in the World and enjoy the thrilling rides in the theme park.</p><br>
+    <li><a href="#">FOR MORE DETAILS OF HYDRABAD</a><br>
+  </div>
+  
+  <div class="column">
+    <h2>KERALA</h2>
+    <img src="https://i.postimg.cc/wT1vDCHs/images-2.jpg">
+    <p>TripFactory vacation packages are the best option if you want to have an unforgettable trip to Kerala. With the most personalized Kerala trip options available, TripFactory can accommodate all types of travelers from Delhi, Mumbai, Chennai, or Bangalore. Choose from more than 192 Kerala travel packages with incredible offers and savings.</p><br>
+     <li><a href="#">FOR MORE DETAILS OF KERALA</a></li><br>
+  </div>
+</div>
+  <!--footer-->
+  <div class="footer">
+  <p>©<strong>copyright toursandtravellers.com</strong></p>
+  </div>
+  </div>                    
